@@ -1,0 +1,9 @@
+.hash-tag {
+  @include resetIndentation;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}

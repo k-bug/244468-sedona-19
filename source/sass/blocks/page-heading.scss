@@ -1,0 +1,15 @@
+.page-heading {
+  @include resetIndentation;
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .page-heading {
+    font-size: 21px;
+  }
+}

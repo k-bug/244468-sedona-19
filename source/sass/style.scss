@@ -1,4 +1,10 @@
 @import "scaffolding.scss";
 @import "mixins.scss";
-@import "blocks/main-nav.scss";
+@import "variables.scss";
 @import "fonts.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-text.scss";
+@import "blocks/site-button.scss";
+@import "blocks/page-heading.scss";
+@import "blocks/section-heading.scss";
+@import "blocks/hash-tag.scss";
