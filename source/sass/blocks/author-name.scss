@@ -1,0 +1,7 @@
+.author-name {
+  @include resetIndentation;
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
