@@ -2,6 +2,7 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "fonts.scss";
+@import "blocks/visually-hidden.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-text.scss";
 @import "blocks/site-button.scss";
@@ -12,3 +13,5 @@
 @import "blocks/author-name.scss";
 @import "blocks/like.scss";
 @import "blocks/post-list.scss";
+@import "blocks/post.scss";
+@import "blocks/page-cover.scss";

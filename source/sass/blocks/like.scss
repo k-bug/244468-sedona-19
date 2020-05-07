@@ -10,3 +10,9 @@
   line-height: 24px;
   color: #000000;
 }
+
+@media (min-width: $desktop-width) {
+  .like__quantity {
+    color: #ffffff;
+  }
+}

@@ -5,3 +5,9 @@
   line-height: 24px;
   color: #333333;
 }
+
+@media (min-width: $desktop-width) {
+  .author-name {
+    color: #ffffff;
+  }
+}

@@ -7,3 +7,9 @@
   color: #000000;
   text-transform: uppercase;
 }
+
+@media (min-width: $desktop-width) {
+  .post-title {
+    color: #ffffff;
+  }
+}
