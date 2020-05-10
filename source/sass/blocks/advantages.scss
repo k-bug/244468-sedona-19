@@ -10,8 +10,30 @@
 }
 
 .advantages__text {
+  padding-top: 57px;
   padding-right: 20px;
   padding-left: 20px;
   box-sizing: border-box;
   text-align: center;
+}
+
+.advantages__item {
+  background-color: #eeeeee;
+  padding-top: 33px;
+  padding-bottom: 34px;
+
+  &--cool {
+    padding-top: 45px;
+    padding-bottom: 0;
+    background-color: $brand-color;
+    color: #ffffff;
+  }
+
+  &--cool:first-child {
+    padding-top: 64px;
+  }
+}
+
+.advantages__image {
+  padding-top: 45px;
 }
