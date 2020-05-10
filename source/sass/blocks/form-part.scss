@@ -1,0 +1,28 @@
+.form-part__label {
+  @include resetIndentation;
+  line-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.form-part__choice-label {
+  @include resetIndentation;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.form-part__input {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.form-part__input::placeholder {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+}
