@@ -14,3 +14,23 @@
 .offers__button {
   margin-top: 42px;
 }
+
+@media (min-width: $tablet-width) {
+  .offers__heading {
+    width: 458px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .offers__text {
+    width: 458px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .offers__button {
+    width: 458px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
