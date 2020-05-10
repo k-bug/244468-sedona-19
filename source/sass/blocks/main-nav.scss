@@ -31,12 +31,26 @@
   background-color: $brand-color;
 }
 
+.main-nav__link:hover {
+  background-color: #669ec0;
+}
+
+.main-nav__link:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 @media (min-width: $tablet-width) {
   .main-nav__link {
+    padding-top: 14px;
     font-size: 14px;
     line-height: 26px;
     color: #000000;
     background: #ffffff;
+
+    &--current {
+      color: #766357;
+    }
   }
 
   .main-nav__item {
@@ -56,5 +70,23 @@
   .main-nav__list {
     display: flex;
     width: 100%;
+  }
+
+  .main-nav__link:hover {
+    background-color: transparent;
+    color: #81b3d2;
+
+    &--current {
+      color: #604e43;
+    }
+  }
+
+  .main-nav__link:active {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+
+    &--current {
+      color: rgba(118, 99, 87, 0.3);
+    }
   }
 }
