@@ -33,10 +33,28 @@
 
 @media (min-width: $tablet-width) {
   .main-nav__link {
-    width: 20%;
     font-size: 14px;
     line-height: 26px;
     color: #000000;
     background: #ffffff;
+  }
+
+  .main-nav__item {
+    border: none;
+    width: 20%;
+    min-height: 56px;
+  }
+
+  .main-nav__item:nth-child(2) {
+    margin-right: auto;
+  }
+
+  .main-nav__item:nth-child(3) {
+    margin-left: auto;
+  }
+
+  .main-nav__list {
+    display: flex;
+    width: 100%;
   }
 }
