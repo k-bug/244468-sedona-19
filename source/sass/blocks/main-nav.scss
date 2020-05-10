@@ -3,19 +3,16 @@
 }
 
 .main-nav__item {
-  border-bottom: 1px solid #678fa8;
-}
-
-.main-nav__item {
   border-top: 1px solid #9ac2db;
-}
-
-.main-nav__item:last-child {
-  border-bottom: none;
+  border-bottom: 1px solid #678fa8;
 }
 
 .main-nav__item:first-child {
   border-top: none;
+}
+
+.main-nav__item:last-child {
+  border-bottom: none;
 }
 
 .main-nav__link {

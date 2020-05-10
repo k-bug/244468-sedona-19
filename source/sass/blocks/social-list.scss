@@ -1,3 +1,17 @@
 .social-list {
   @include resetList;
+  display: flex;
+  padding-top: 42px;
+  flex-wrap: wrap;
+}
+
+.social-list__item {
+  width: 46px;
+  height: 46px;
+  margin-right: 6px;
+  background-color: $brand-color;
+}
+
+.social-list__item:last-child {
+  margin-right: 0;
 }
