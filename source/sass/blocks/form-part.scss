@@ -1,7 +1,5 @@
 .form-part__label {
   @include resetIndentation;
-  font-family: $main-font;
-  font-size: 14px;
   line-height: 21px;
   color: #333333;
   text-transform: uppercase;
@@ -9,7 +7,6 @@
 
 .form-part__choice-label {
   @include resetIndentation;
-  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -17,7 +14,6 @@
 }
 
 .form-part__input {
-  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -25,7 +21,6 @@
 }
 
 .form-part__input::placeholder {
-  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;

@@ -1,5 +1,29 @@
+.post__heading {
+  @include resetIndentation;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.post__author {
+  @include resetIndentation;
+  line-height: 24px;
+  color: #333333;
+}
+
 @media (min-width: $desktop-width) {
   .post {
     background-color: #4f3114;
+  }
+
+  .post__heading {
+    .post-title {
+      color: #ffffff;
+    }
+  }
+
+  .post__author {
+    color: #ffffff;
   }
 }

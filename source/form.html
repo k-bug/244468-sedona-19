@@ -40,15 +40,15 @@
       <img class="page-cover__image" src="img/bg-back-mobile@1x.jpg" width="320" height="158" alt="Ландшафт Седоны">
     </div>
   </section>
-  <section class="town-review">
-    <div class="container town-review__wrapper">
-      <h2 class="town-review__heading section-heading">
+  <section class="page-section">
+    <div class="container page-section__wrapper">
+      <h2 class="page-section__heading section-heading">
         Оставьте свой отзыв
       </h2>
-      <p class="town-review__text page-text">
+      <p class="page-section__text page-text">
         Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
       </p>
-      <form class="town-review__form page-form" action="https://echo.htmlacademy.ru" method="post">
+      <form class="page-section__form page-form" action="https://echo.htmlacademy.ru" method="post">
         <fieldset class="page-form__part form-part">
           <legend class="form-part__heading section-heading">
             Ваше общее впечатление:
@@ -83,7 +83,7 @@
           </label>
           <label class="form-part__label">
             Отчество:
-            <input class="form-part__input" type="text" name="fathername" value="" id="father name" placeholder="Александрович">
+            <input class="form-part__input" type="text" name="father-name" value="" id="father name" placeholder="Александрович">
           </label>
         </fieldset>
         <fieldset class="page-form__part form-part">
@@ -138,10 +138,23 @@
 </main>
 <footer class="page-footer">
   <div class="container page-footer__wrapper">
-    <b class="page-footer__tag hash-tag">#visitSEDONA</b>
-    <div class="page-footer__copyright copyright">
+    <b class="page-footer__tag">#visitSEDONA</b>
+    <ul class="page-footer__social social-list">
+      <li class="social-list__item">
+        <a class="social-link social-link--twitter"><span class="visually-hidden">Седона в Твиттере</span></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-link social-link--facebook"><span class="visually-hidden">Седона в Фейсбуке</span></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-link social-link--youtube"><span class="visually-hidden">Седона в Ютьюбе</span></a>
+      </li>
+    </ul>
+    <div class="page-footer__copyright">
       <p class="page-footer__text page-text">Разработано</p>
-      <img class="page-footer__logo academy-logo" src="img/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Academy">
+      <a class="page-footer__logo-link" href="https://htmlacademy.ru/intensive/adaptive">
+        <img class="page-footer__logo" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+      </a>
     </div>
   </div>
 </footer>

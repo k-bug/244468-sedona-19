@@ -4,9 +4,7 @@
 
 .like__quantity {
   @include resetIndentation;
-  font-family: $main-font;
   font-weight: 700;
-  font-size: 14px;
   line-height: 24px;
   color: #000000;
 }
