@@ -54,21 +54,38 @@
   }
 
   .advantages__item {
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 33%;
-  }
 
-  .advantages__item--cool {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+    &--cool {
+      display: flex;
+      width: 100%;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    &--cool:first-child {
+      padding: 0;
+    }
   }
 
   .advantages__content {
     width: 33%;
+    padding-top: 50px;
   }
 
   .advantages__image {
     width: 67%;
     padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__content {
+    padding-top: 57px;
+  }
+  .advantages__item {
+    padding-bottom: 70px;
   }
 }

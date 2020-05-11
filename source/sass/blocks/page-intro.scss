@@ -10,3 +10,10 @@
 .page-intro__text {
   padding-top: 42px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-intro__welcome {
+    padding-top: 55px;
+    padding-bottom: 58px;
+  }
+}
