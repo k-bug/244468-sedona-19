@@ -7,30 +7,21 @@
   background-color: #ffffff;
 }
 
+.offers__heading {
+  max-width: 458px;
+  margin: 0 auto;
+}
+
 .offers__text {
+  max-width: 458px;
   margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .offers__button {
+  max-width: 458px;
   margin-top: 42px;
-}
-
-@media (min-width: $tablet-width) {
-  .offers__heading {
-    width: 458px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .offers__text {
-    width: 458px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .offers__button {
-    width: 458px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  margin-right: auto;
+  margin-left: auto;
 }
