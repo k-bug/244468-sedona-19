@@ -87,5 +87,9 @@
   }
   .advantages__item {
     padding-bottom: 70px;
+
+    &--cool {
+      padding: 0;
+    }
   }
 }

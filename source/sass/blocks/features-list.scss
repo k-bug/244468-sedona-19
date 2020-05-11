@@ -68,6 +68,9 @@
 
   .features-list__item {
     padding-top: 164px;
+    padding-right: 20px;
+    padding-bottom: 67px;
+    padding-left: 20px;
     width: 33%;
   }
 
@@ -119,5 +122,13 @@
     width: 75px;
     height: 72px;
     background-size: contain;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features-list__item {
+    padding-right: 50px;
+    padding-bottom: 88px;
+    padding-left: 50px;
   }
 }
