@@ -17,6 +17,14 @@
   text-align: center;
 }
 
+.advantages__item--cool .advantages__text {
+  color: #ffffff;
+}
+
+.advantages__item--cool .advantages__heading {
+  color: #ffffff;
+}
+
 .advantages__item {
   background-color: #eeeeee;
   padding-top: 33px;
@@ -36,4 +44,30 @@
 
 .advantages__image {
   padding-top: 45px;
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    width: 33%;
+  }
+
+  .advantages__item--cool {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .advantages__content {
+    width: 33%;
+  }
+
+  .advantages__image {
+    width: 67%;
+    padding: 0;
+  }
 }

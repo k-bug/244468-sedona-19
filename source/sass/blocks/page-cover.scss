@@ -1,5 +1,7 @@
 .page-cover {
   background-color: #457aa4;
+  max-width: 1200px;
+  margin: 0 auto;
 
   &--main-page {
     background-image: url("../../img/bg-back-mobile@1x.jpg");

@@ -18,3 +18,23 @@
   padding-top: 26px;
   text-align: left;
 }
+
+@media (min-width: $tablet-width) {
+  .features-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .features-list__item {
+    width: 33%;
+  }
+
+  .features-list__heading {
+    text-align: center;
+  }
+
+  .features-list__text {
+    text-align: center;
+  }
+}

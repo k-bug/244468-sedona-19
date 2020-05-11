@@ -36,12 +36,15 @@
     <main class="page-main">
       <section class="page-cover page-cover--main-page">
         <div class="page-cover__wrapper container">
-          <img class="page-cover__welcome-image" src="img/text-sedona-index.svg" width="282" height="214" alt="Welcome to the gorgeous Sedona! Because the Grand Canyon sucks!">
+          <img class="page-cover__welcome-image"
+               src="img/text-sedona-index.svg" width="282" height="214"
+               alt="Welcome to the gorgeous Sedona! Because the Grand Canyon sucks!">
         </div>
       </section>
       <section class="page-intro">
         <div class="page-intro__welcome container">
-          <h1 class="page-intro__heading page-heading">Седона — небольшой городок в Аризоне, заслуживающий большего!
+          <h1 class="page-intro__heading page-heading">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
           </h1>
           <p class="page-intro__text page-text">
             Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
@@ -52,13 +55,24 @@
         <div class="advantages__wrapper container">
           <ol class="advantages__list">
             <li class="advantages__item advantages__item--cool">
-              <h2 class="advantages__heading section-heading">
-                Настоящий городок
-              </h2>
-              <p class="advantages__text page-text">
-                Седона не аттракцион для туристов, там течет своя жизнь
-              </p>
-              <img class="advantages__image" src="img/main-city-mobile@1x.jpg" width="320" height="260" alt="Площадь города Седона">
+              <div class="advantages__content">
+                <h2 class="advantages__heading section-heading">
+                  Настоящий городок
+                </h2>
+                <p class="advantages__text page-text">
+                  Седона не аттракцион для туристов, там течет своя жизнь
+                </p>
+              </div>
+              <picture>
+                <source media="(min-width:1200px)"
+                        srcset="img/main-city-desktop@1x.jpg 1x,
+                        img/main-city-desktop@2x.jpg 2x">
+                <source media="(min-width:321px)"
+                        srcset="img/main-city-tablet@1x.jpg 1x,
+                        img/main-city-tablet@2x.jpg 2x">
+                <img class="advantages__image" src="img/main-city-mobile@1x.jpg"
+                     srcset="img/main-city-mobile@2x.jpg 2x" width="320" height="260" alt="Площадь города Седона">
+              </picture>
               <ul class="advantages__town-features features-list">
                 <li class="features-list__item">
                   <h3 class="features-list__heading section-heading">
@@ -87,13 +101,24 @@
               </ul>
             </li>
             <li class="advantages__item advantages__item--cool">
-              <h2 class="advantages__heading section-heading">
-                Там есть Мост дьявола
-              </h2>
-              <p class="advantages__text page-text">
-                Да, по нему можно пройти! Если вы осмелитесь, конечно
-              </p>
-              <img class="advantages__image" src="img/photo-bridge-mobile@1x.jpg" width="320" height="260" alt="Мост дьявола">
+              <div class="advantages__content">
+                <h2 class="advantages__heading section-heading">
+                  Там есть Мост дьявола
+                </h2>
+                <p class="advantages__text page-text">
+                  Да, по нему можно пройти! Если вы осмелитесь, конечно
+                </p>
+              </div>
+              <picture>
+                <source media="(min-width:1200px)"
+                        srcset="img/photo-bridge-desktop@1x.jpg 1x,
+                        img/photo-bridge-desktop@2x.jpg 2x">
+                <source media="(min-width:321px)"
+                        srcset="img/photo-bridge-tablet@1x.jpg 1x,
+                        img/photo-bridge-tablet@2x.jpg 2x">
+                <img class="advantages__image" src="img/photo-bridge-mobile@1x.jpg"
+                     srcset="img/photo-bridge-mobile@2x.jpg 2x" width="320" height="260" alt="Мост дьявола">
+              </picture>
             </li>
             <li class="advantages__item">
               <h2 class="advantages__heading section-heading">
