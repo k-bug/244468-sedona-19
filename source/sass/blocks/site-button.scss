@@ -13,3 +13,16 @@
   color: #ffffff;
   background-color: $brand-color;
 }
+
+.site-button:hover {
+  background-color: #669ec0;
+}
+
+.site-button:active {
+  color: rgba(256, 256, 256, 0.3);
+  background-color: #5496bd;
+}
+
+.site-button:disabled {
+  background-color: #e5e5e5;
+}
