@@ -40,7 +40,7 @@
         </div>
       </section>
       <section class="page-section">
-        <div class="page-section__wrapper container">
+        <div class="page-section__wrapper page-section__wrapper--first container">
           <h1 class="page-section__heading section-heading">
             Фото и видео
           </h1>
@@ -50,50 +50,102 @@
           <ul class="page-section__posts">
             <li class="page-section__post post">
               <a class="post__link" href="#">
-                <img class="post__photo" src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Закат в Седоне">
+                <picture>
+                  <source media="(min-width: 1200px)"
+                          srcset="img/photo-sunset-desktop@1x.jpg 1x,
+                          img/photo-sunset-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                          srcset="img/photo-sunset-tablet@1x.jpg 1x,
+                          img/photo-sunset-tablet@2x.jpg 2x">
+                  <img class="post__photo" src="img/photo-sunset-mobile@1x.jpg"
+                      srcset="img/photo-sunset-mobile@2x.jpg 2x" width="280" height="280" alt="Закат в Седоне">
+                </picture>
               </a>
-              <h3 class="post__heading">Неродные просторы</h3>
-              <p class="post__author">Автор фото: Борис</p>
-              <div  class="post__like">
-                <span class="visually-hidden">Понравилось: </span>
-                <span class="post__likes">1350</span>
-                <span class="visually-hidden"> пользователям</span>
+              <div class="post__data">
+                <div class="post__description">
+                  <h3 class="post__heading">Неродные просторы</h3>
+                  <p class="post__author">Автор фото: Борис</p>
+                </div>
+                <div  class="post__like">
+                  <span class="visually-hidden">Понравилось: </span>
+                  <span class="post__likes">1350</span>
+                  <span class="visually-hidden"> пользователям</span>
+                </div>
               </div>
             </li>
             <li class="page-section__post post">
               <a class="post__link" href="#">
-                <img class="post__photo" src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Кактус в Седоне">
+                <picture>
+                  <source media="(min-width: 1200px)"
+                          srcset="img/photo-cactus-desktop@1x.jpg 1x,
+                          img/photo-cactus-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                          srcset="img/photo-cactus-tablet@1x.jpg 1x,
+                          img/photo-cactus-tablet@2x.jpg 2x">
+                  <img class="post__photo" src="img/photo-cactus-mobile@1x.jpg"
+                       srcset="img/photo-cactus-mobile@2x.jpg 2x" width="280" height="280" alt="Кактус в Седоне">
+                </picture>
               </a>
-              <h3 class="post__heading">Местная растительность</h3>
-              <p class="post__author">Автор фото: Сергей</p>
-              <div  class="post__like">
-                <span class="visually-hidden">Понравилось: </span>
-                <span class="post__likes">143</span>
-                <span class="visually-hidden"> пользователям</span>
+              <div class="post__data">
+                <div class="post__description">
+                  <h3 class="post__heading">Местная растительность</h3>
+                  <p class="post__author">Автор фото: Сергей</p>
+                </div>
+                <div  class="post__like">
+                  <span class="visually-hidden">Понравилось: </span>
+                  <span class="post__likes">143</span>
+                  <span class="visually-hidden"> пользователям</span>
+                </div>
               </div>
             </li>
             <li class="page-section__post post">
               <a class="post__link" href="#">
-                <img class="post__photo" src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север">
+                <picture>
+                  <source media="(min-width: 1200px)"
+                          srcset="img/photo-roads-desktop@1x.jpg 1x,
+                          img/photo-roads-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                          srcset="img/photo-roads-tablet@1x.jpg 1x,
+                          img/photo-roads-tablet@2x.jpg 2x">
+                  <img class="post__photo" src="img/photo-roads-mobile@1x.jpg"
+                       srcset="img/photo-roads-mobile@2x.jpg 2x" width="280" height="280" alt="Дорога на север">
+                </picture>
               </a>
-              <h3 class="post__heading">Дорога на север</h3>
-              <p class="post__author">Автор фото: Петр</p>
-              <div  class="post__like">
-                <span class="visually-hidden">Понравилось: </span>
-                <span class="post__likes">96</span>
-                <span class="visually-hidden"> пользователям</span>
+              <div class="post__data">
+                <div class="post__description">
+                  <h3 class="post__heading">Дорога на север</h3>
+                  <p class="post__author">Автор фото: Петр</p>
+                </div>
+                <div  class="post__like">
+                  <span class="visually-hidden">Понравилось: </span>
+                  <span class="post__likes">96</span>
+                  <span class="visually-hidden"> пользователям</span>
+                </div>
               </div>
             </li>
             <li class="page-section__post post">
               <a class="post__link" href="#">
-                <img class="post__photo" src="img/main-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост дьявола в Седоне">
+                <picture>
+                  <source media="(min-width: 1200px)"
+                          srcset="img/photo-bridge-desktop@1x.jpg 1x,
+                          img/photo-bridge-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                          srcset="img/photo-bridge-tablet@1x.jpg 1x,
+                          img/photo-bridge-tablet@2x.jpg 2x">
+                  <img class="post__photo" src="img/photo-bridge-mobile@1x.jpg"
+                       srcset="img/photo-bridge-mobile@1x.jpg 2x" width="280" height="280" alt="Мост дьявола в Седоне">
+                </picture>
               </a>
-              <h3 class="post__heading">Мост дьявола</h3>
-              <p class="post__author">Автор фото: Антон</p>
-              <div  class="post__like">
-                <span class="visually-hidden">Понравилось: </span>
-                <span class="post__likes">254</span>
-                <span class="visually-hidden"> пользователям</span>
+              <div class="post__data">
+                <div class="post__description">
+                  <h3 class="post__heading">Мост дьявола</h3>
+                  <p class="post__author">Автор фото: Антон</p>
+                </div>
+                <div  class="post__like">
+                  <span class="visually-hidden">Понравилось: </span>
+                  <span class="post__likes">254</span>
+                  <span class="visually-hidden"> пользователям</span>
+                </div>
               </div>
             </li>
           </ul>
