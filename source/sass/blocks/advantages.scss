@@ -64,6 +64,7 @@
       width: 100%;
       padding: 0;
       flex-wrap: wrap;
+      justify-content: space-between;
     }
 
     &--cool:first-child {
@@ -77,7 +78,8 @@
   }
 
   .advantages__image {
-    width: 67%;
+    width: 100%;
+    height: auto;
     padding: 0;
   }
 }
