@@ -40,6 +40,10 @@
   opacity: 0.3;
 }
 
+.post__photo {
+  display: block;
+}
+
 @media (min-width: $tablet-width) {
   .post {
     width: 324px;
