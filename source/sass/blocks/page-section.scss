@@ -1,6 +1,7 @@
 .page-section {
   background-color: #ffffff;
 }
+
 .page-section__posts {
   @include resetList;
   display: flex;
@@ -41,6 +42,7 @@
   .page-section {
     width: 1200px;
     margin: 0 auto;
+
   }
   .page-section__posts {
     width: 1200px;
