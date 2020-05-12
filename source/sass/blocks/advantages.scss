@@ -77,6 +77,10 @@
     padding-top: 50px;
   }
 
+  .advantages__cover {
+    width: 67%;
+  }
+
   .advantages__image {
     width: 100%;
     height: auto;
@@ -94,6 +98,11 @@
 
     &--cool {
       padding: 0;
+    }
+
+    &--cool:nth-child(2) {
+      padding: 0;
+      flex-flow: row-reverse;
     }
   }
 }
