@@ -23,3 +23,9 @@
     transform: translate(-51px);
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo-link {
+    transform: translate(-94px);
+  }
+}
