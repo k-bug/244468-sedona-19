@@ -2,6 +2,26 @@
   border: none;
   margin: 0;
   padding: 0;
+
+  &--impressions {
+    order: 3;
+  }
+
+  &--personal-info {
+    order: 1;
+  }
+
+  &--contacts {
+    order: 2;
+  }
+
+  &--sights {
+    order: 4;
+  }
+
+  &--comment {
+    order: 5;
+  }
 }
 
 .form-part__label {

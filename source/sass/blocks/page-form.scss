@@ -1,0 +1,12 @@
+.page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-form__button {
+  order: 6;
+}
+
+.page-form__required {
+  display: none;
+}
