@@ -66,10 +66,26 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+
+  &--tel {
+    position: relative;
+  }
 }
 
 .form-part__input::placeholder {
   color: #000000;
+}
+
+.form-part__input--tel::after {
+  content: "";
+  position: absolute;
+  background-color: #e6e6e6;
+  background-image: url("../../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  top: 0;
+  left: 0;
 }
 
 .form-part__label-name {
@@ -77,8 +93,39 @@
 }
 
 .form-part__label--contacts .form-part__input {
-  //margin-right: 20px;
   margin-left: 0;
-  //width: 100%;
   width: calc(100% - 40px);
+}
+
+@media (min-width: $tablet-width) {
+  .form-part {
+    &--impressions {
+      order: 1;
+      width: 50%;
+    }
+
+    &--personal-info {
+      order: 2;
+      width: 50%;
+    }
+
+    &--contacts {
+      order: 3;
+      width: 100%;
+    }
+
+    &--sights {
+      order: 4;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &--comment {
+      order: 5;
+    }
+  }
+
+  .form-part--sights .form-part__choice-label {
+    width: 50%;
+  }
 }

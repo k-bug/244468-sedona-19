@@ -6,9 +6,30 @@
 }
 
 .page-form__button {
+  margin-top: 51px;
   order: 6;
 }
 
 .page-form__required {
   display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .page-form {
+    max-width: 648px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .page-form__button {
+    width: 50%;
+    margin-top: 58px;
+    order: 6;
+  }
+
+  .page-form__required {
+    display: initial;
+    margin-top: 84px;
+    order: 7;
+  }
 }
