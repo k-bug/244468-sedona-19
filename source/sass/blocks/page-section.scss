@@ -34,6 +34,13 @@
   padding-left: 20px;
 }
 
+.page-section__video {
+  margin: 0 auto;
+  padding-top: 42px;
+  width: 320px;
+  height: auto;
+}
+
 @media (min-width: $tablet-width) {
   .page-section__posts {
     width: 648px;
@@ -41,6 +48,12 @@
     flex-direction: row;
     align-items: start;
     flex-wrap: wrap;
+  }
+
+  .page-section__video {
+    margin-top: 80px;
+    width: 648px;
+    height: 499px;
   }
 }
 
@@ -52,5 +65,11 @@
 
   .page-section__posts {
     width: 1200px;
+  }
+
+  .page-section__video {
+    margin-top: 78px;
+    width: 800px;
+    height: 500px;
   }
 }
