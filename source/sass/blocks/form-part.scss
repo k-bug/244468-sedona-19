@@ -28,6 +28,34 @@
   }
 }
 
+.form-part--personal-info .form-part__label-name {
+  padding-left: 0;
+}
+
+.form-part--personal-info .form-part__heading {
+  padding-bottom: 28px;
+}
+
+.form-part--contacts .form-part__heading {
+  padding-top: 50px;
+  padding-bottom: 26px;
+}
+
+.form-part--impressions .form-part__heading {
+  padding-top: 53px;
+  padding-bottom: 26px;
+}
+
+.form-part--sights .form-part__heading {
+  padding-top: 52px;
+  padding-bottom: 22px;
+}
+
+.form-part--comment .form-part__heading {
+  padding-top: 45px;
+  padding-bottom: 22px;
+}
+
 .form-part__label {
   @include resetIndentation;
   display: flex;
@@ -93,6 +121,10 @@
   padding-left: 14px;
 }
 
+.form-part__label--contacts .form-part__label-name {
+  padding-bottom: 11px;
+}
+
 .form-part__label--contacts .form-part__input {
   margin-left: 0;
   width: calc(100% - 40px);
@@ -138,6 +170,20 @@
   .form-part__wrap--sights {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .form-part--impressions .form-part__heading {
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 26px;
+  }
+
+  .form-part--personal-info .form-part__heading {
+    text-align: left;
+  }
+
+  .form-part--sights .form-part__heading {
+    width: 278px;
   }
 }
 
