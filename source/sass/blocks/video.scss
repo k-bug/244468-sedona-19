@@ -1,4 +1,81 @@
+.video {
+  position: relative;
+}
+
 .video__placeholder {
   width: 100%;
   height: auto;
+}
+
+.video__controls-wrapper {
+  position: relative;
+}
+
+.video__controls-background {
+  position: absolute;
+  display: flex;
+  background-color: #f2f2f2;
+  width: 280px;
+  height: 70px;
+  bottom: 0;
+  z-index: 1;
+}
+.video__progress {
+  display: block;
+  width: 235px;
+  margin-right: 22px;
+  margin-left: 22px;
+  //box-sizing: border-box;
+  order: 1;
+  z-index: 2;
+}
+
+.video__progress[type=range] {
+  background: rgba(256, 256, 256, 0.2);
+  cursor: pointer;
+  height: 45px;
+}
+
+.video__again {
+  order: 2;
+  z-index: 2;
+}
+
+.video__subtitles {
+  order: 3;
+  z-index: 2;
+}
+
+.video__full-screen {
+  order: 4;
+  z-index: 2;
+}
+
+.video__controls {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 280px;
+  height: 111px;
+  bottom: -60px;
+  left: 50%;
+  transform: translate(-140px);
+}
+
+@media (min-width: $tablet-width) {
+  .video__controls {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 648px;
+    height: 93px;
+    bottom: 0;
+    left: 0;
+    transform: translate(0);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video__controls {
+    width: 800px;
+  }
 }

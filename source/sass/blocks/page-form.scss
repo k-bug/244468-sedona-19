@@ -34,3 +34,9 @@
     order: 7;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-form {
+    max-width: 960px;
+  }
+}

@@ -77,15 +77,15 @@
                 Представьтесь:
               </legend>
               <label class="form-part__label">
-                Имя*:
+                <span class="form-part__label-name">Имя*:</span>
                 <input class="form-part__input" type="text" name="name" value="" id="name" placeholder="Петр" required>
               </label>
               <label class="form-part__label">
-                Фамилия*:
+                <span class="form-part__label-name">Фамилия*:</span>
                 <input class="form-part__input" type="text" name="surname" value="" id="surname" placeholder="Иванов" required>
               </label>
               <label class="form-part__label">
-                Отчество:
+                <span class="form-part__label-name">Отчество:</span>
                 <input class="form-part__input" type="text" name="father-name" value="" id="father name" placeholder="Александрович">
               </label>
             </fieldset>
@@ -93,39 +93,43 @@
               <legend class="form-part__heading section-heading">
                 Контактная информация:
               </legend>
-              <label class="form-part__label form-part__label--contacts">
-                <span class="form-part__label-name">Телефон*:</span>
-                <input class="form-part__input form-part__input--tel" type="tel" id="phone" name="phone"  placeholder="Введите телефон" required>
-              </label>
-              <label class="form-part__label form-part__label--contacts">
-                <span class="form-part__label-name">Электронная почта*:</span>
-                <input class="form-part__input form-part__input-mail" type="email" id="email" name="email" placeholder="Введите e-mail" required>
-              </label>
+              <div class="form-part__wrap">
+                <label class="form-part__label form-part__label--contacts">
+                  <span class="form-part__label-name">Телефон*:</span>
+                  <input class="form-part__input form-part__input--tel" type="tel" id="phone" name="phone"  placeholder="Введите телефон" required>
+                </label>
+                <label class="form-part__label form-part__label--contacts">
+                  <span class="form-part__label-name">Электронная почта*:</span>
+                  <input class="form-part__input form-part__input--mail" type="email" id="email" name="email" placeholder="Введите e-mail" required>
+                </label>
+              </div>
             </fieldset>
             <fieldset class="page-form__part form-part  form-part--sights">
               <legend class="form-part__heading section-heading">
                 Посещенные достопримечательности:
               </legend>
-              <label class="form-part__choice-label">
-                <input class="form-part__checkbox" type="checkbox" name="sight" value="bridge" checked>
-                <span class="form-part__tic  checkbox-tic"></span>
-                Мост Дьявола
-              </label>
-              <label class="form-part__choice-label">
-                <input class="form-part__checkbox" type="checkbox" name="sight" value="mountain" checked>
-                <span class="form-part__tic  checkbox-tic"></span>
-                Гора-Колокол
-              </label>
-              <label class="form-part__choice-label">
-                <input class="form-part__checkbox" type="checkbox" name="sight" value="park" checked>
-                <span class="form-part__tic  checkbox-tic"></span>
-                Слайд-парк
-              </label>
-              <label class="form-part__choice-label">
-                <input class="form-part__checkbox" type="checkbox" name="sight" value="red-mountains">
-                <span class="form-part__tic  checkbox-tic"></span>
-                Красные скалы
-              </label>
+              <div class="form-part__wrap--sights">
+                <label class="form-part__choice-label">
+                  <input class="form-part__checkbox" type="checkbox" name="sight" value="bridge" checked>
+                  <span class="form-part__tic  checkbox-tic"></span>
+                  Мост Дьявола
+                </label>
+                <label class="form-part__choice-label">
+                  <input class="form-part__checkbox" type="checkbox" name="sight" value="mountain" checked>
+                  <span class="form-part__tic  checkbox-tic"></span>
+                  Гора-Колокол
+                </label>
+                <label class="form-part__choice-label">
+                  <input class="form-part__checkbox" type="checkbox" name="sight" value="park" checked>
+                  <span class="form-part__tic  checkbox-tic"></span>
+                  Слайд-парк
+                </label>
+                <label class="form-part__choice-label">
+                  <input class="form-part__checkbox" type="checkbox" name="sight" value="red-mountains">
+                  <span class="form-part__tic  checkbox-tic"></span>
+                  Красные скалы
+                </label>
+              </div>
             </fieldset>
             <fieldset class="page-form__part form-part  form-part--comment">
               <legend class="form-part__heading section-heading">

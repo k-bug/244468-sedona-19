@@ -24,3 +24,9 @@
   line-height: 26px;
   color: #000000;
 }
+
+@media (min-width: $desktop-width) {
+  .comment {
+    width: 960px;
+  }
+}
