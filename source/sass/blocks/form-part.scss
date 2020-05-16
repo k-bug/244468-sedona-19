@@ -179,6 +179,7 @@
     &--personal-info {
       order: 2;
       width: 50%;
+      max-width: 266px;
     }
 
     &--contacts {
@@ -207,10 +208,6 @@
     flex-wrap: wrap;
   }
 
-  .form-part--personal-info {
-    max-width: 266px;
-  }
-
   .form-part--impressions .form-part__heading {
     text-align: left;
     padding-top: 0;
@@ -229,7 +226,7 @@
 @media (min-width: $desktop-width) {
   .form-part {
     &--personal-info {
-      width: 400px;
+      max-width: 420px;
       align-items: center;
     }
   }
