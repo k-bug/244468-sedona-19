@@ -90,9 +90,6 @@
 
 .form-part__label-name {
   padding-right: 21px;
-}
-
-.form-part__label-name {
   padding-left: 14px;
 }
 
@@ -151,6 +148,7 @@
       align-items: center;
     }
   }
+
   .form-part__label--contacts {
     display: flex;
     width: 50%;
@@ -160,7 +158,7 @@
   .form-part__input {
     box-sizing: border-box;
 
-    &--tel{
+    &--tel {
       max-width: 315px;
     }
 
@@ -205,7 +203,7 @@
     width: 960px;
   }
 
-  .form-part__wrap--sights .form-part__choice-label{
+  .form-part__wrap--sights .form-part__choice-label {
     width: 25%;
   }
 }

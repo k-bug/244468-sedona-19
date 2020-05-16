@@ -20,17 +20,17 @@
   bottom: 0;
   z-index: 1;
 }
+
 .video__progress {
   display: block;
   width: 235px;
   margin-right: 22px;
   margin-left: 22px;
-  //box-sizing: border-box;
   order: 1;
   z-index: 2;
 }
 
-.video__progress[type=range] {
+.video__progress[type="range"] {
   background: rgba(256, 256, 256, 0.2);
   cursor: pointer;
   height: 45px;
