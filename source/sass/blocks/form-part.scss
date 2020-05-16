@@ -28,6 +28,11 @@
   }
 }
 
+.form-part__radio {
+  appearance: none;
+  position: absolute;
+}
+
 .form-part--personal-info .form-part__label-name {
   margin-bottom: 17px;
   padding-left: 0;
@@ -74,10 +79,13 @@
 
 .form-part__choice-label {
   @include resetIndentation;
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
+  padding-left: 80px;
 }
 
 .form-part__input {
@@ -136,6 +144,31 @@
   flex-direction: column;
 }
 
+.form-part__radio-tic {
+  position: absolute;
+  margin-top: -16px;
+  margin-left: -76px;
+  width: 55px;
+  height: 55px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.form-part__radio:checked + .form-part__radio-tic::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #333333;
+  border-radius: 50%;
+  top: 17px;
+  left: 17px;
+}
+
+.form-part__radio:hover + .form-part__radio-tic {
+  background-color: #e5e5e5;
+}
+
 @media (min-width: $tablet-width) {
   .form-part {
     &--impressions {
@@ -166,11 +199,16 @@
 
   .form-part--sights .form-part__choice-label {
     width: 50%;
+    box-sizing: border-box;
   }
 
   .form-part__wrap--sights {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .form-part--personal-info {
+    max-width: 266px;
   }
 
   .form-part--impressions .form-part__heading {
