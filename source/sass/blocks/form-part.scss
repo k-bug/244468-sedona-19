@@ -29,6 +29,7 @@
 }
 
 .form-part--personal-info .form-part__label-name {
+  margin-bottom: 17px;
   padding-left: 0;
 }
 
@@ -251,5 +252,9 @@
 
   .form-part__wrap--sights .form-part__choice-label {
     width: 25%;
+  }
+
+  .form-part--personal-info .form-part__label-name {
+    margin-bottom: 41px;
   }
 }
