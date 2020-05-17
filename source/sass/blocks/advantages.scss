@@ -43,8 +43,30 @@
 }
 
 .advantages__image {
-  display: block;
   padding-top: 45px;
+  position: relative;
+}
+
+.advantages__image--main-city::before {
+  content: "";
+  display: block;
+  background-image: url("../../img/main-city-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 20px;
+  width: 320px;
+  height: 260px;
+}
+
+.advantages__image--main-bridge::before {
+  content: "";
+  display: block;
+  background-image: url("../../img/main-bridge-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 20px;
+  width: 320px;
+  height: 260px;
 }
 
 @media (min-width: $tablet-width) {
@@ -75,6 +97,7 @@
   .advantages__content {
     width: 33%;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .advantages__cover {
@@ -91,6 +114,7 @@
 @media (min-width: $desktop-width) {
   .advantages__content {
     padding-top: 57px;
+    padding-bottom: 64px;
   }
 
   .advantages__item {
