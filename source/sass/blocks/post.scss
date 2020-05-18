@@ -50,14 +50,14 @@
     width: 324px;
     padding-top: 0;
     background-color: #f2f2f2;
-  }
 
-  .post:nth-child(3) {
-    background-color: #eaeaea;
-  }
+    &--lead {
+      width: 100%;
+    }
 
-  .post:first-child {
-    width: 100%;
+    &--special {
+      background-color: #eaeaea;
+    }
   }
 
   .post__photo {
@@ -82,10 +82,14 @@
     width: 400px;
     padding-bottom: 0;
     background-color: #4f3114;
-  }
 
-  .post:nth-child(3) {
-    background-color: #4f3114;
+    &--lead {
+      width: 100%;
+    }
+
+    &--special {
+      background-color: #4f3114;
+    }
   }
 
   .post__heading {
