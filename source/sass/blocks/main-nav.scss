@@ -61,16 +61,17 @@
     min-height: 56px;
   }
 
-  .main-nav__item:nth-child(2) {
-    margin-right: auto;
+  .main-nav__item:nth-child(4n + 2) {
+    padding-right: 10%;
   }
 
-  .main-nav__item:nth-child(3) {
-    margin-left: auto;
+  .main-nav__item:nth-child(4n + 3) {
+    padding-left: 10%;
   }
 
   .main-nav__list {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
 
