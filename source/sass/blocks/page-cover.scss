@@ -26,9 +26,9 @@
   background-size: contain;
   width: 320px;
   height: 57px;
-  bottom: -15px;
+  bottom: -16px;
   left: 50%;
-  transform: translate(-160px);
+  transform: translate(-50%);
 }
 
 .page-cover__image {
@@ -62,7 +62,6 @@
     background-image: url("../../img/bg-intro-triangle-tablet.svg");
     width: 768px;
     bottom: 0;
-    transform: translate(-384px);
   }
 }
 
@@ -95,6 +94,5 @@
   .page-cover::before {
     background-image: url("../../img/bg-intro-triangle-desktop.svg");
     width: 1200px;
-    transform: translate(-600px);
   }
 }
