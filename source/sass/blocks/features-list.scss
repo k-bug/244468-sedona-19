@@ -61,6 +61,7 @@
 
 @media (min-width: $tablet-width) {
   .features-list {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 0;
