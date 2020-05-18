@@ -19,6 +19,7 @@
 }
 
 .advantages__item--cool .advantages__text {
+  padding-bottom: 46px;
   color: #ffffff;
 }
 
@@ -59,10 +60,6 @@
   &--cool:first-child {
     padding-top: 64px;
   }
-}
-
-.advantages__item--cool .advantages__text {
-  padding-bottom: 46px;
 }
 
 //.advantages__image {
