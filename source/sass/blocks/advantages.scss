@@ -31,19 +31,19 @@
 //  position: relative;
 //  padding-bottom: 260px;
 
-  //&--main-city::after {
-  //  content: "";
-  //  display: block;
-  //  background-color: #b2bfad;
-  //  background-image: url("../../img/main-city-mobile@1x.jpg");
-  //  background-repeat: no-repeat;
-  //  background-position: center center;
-  //  background-size: cover;
-  //  margin: 0 auto;
-  //  bottom: 0;
-  //  width: 320px;
-  //  height: 260px;
-  //}
+//&--main-city::after {
+//  content: "";
+//  display: block;
+//  background-color: #b2bfad;
+//  background-image: url("../../img/main-city-mobile@1x.jpg");
+//  background-repeat: no-repeat;
+//  background-position: center center;
+//  background-size: cover;
+//  margin: 0 auto;
+//  bottom: 0;
+//  width: 320px;
+//  height: 260px;
+//}
 //}
 
 .advantages__item {
@@ -136,10 +136,6 @@
 
   .advantages__item--cool .advantages__text {
     padding-bottom: 0;
-  }
-
-  .advantages__cover {
-    width: 67%;
   }
 
   .advantages__image {
