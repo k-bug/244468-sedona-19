@@ -1,0 +1,24 @@
+.social-list {
+  @include resetList;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-list__item {
+  width: 46px;
+  height: 46px;
+  margin-right: 6px;
+  background-color: $brand-color;
+}
+
+.social-list__item:last-child {
+  margin-right: 0;
+}
+
+.social-list__item:hover {
+  background-color: #669ec0;
+}
+
+.social-list__item:active {
+  background-color: #5496bd;
+}

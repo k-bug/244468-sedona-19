@@ -1,3 +1,16 @@
+.page-footer__wrapper {
+  background-color: #fefefe;
+}
+
+.page-footer__content {
+  display: flex;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefefe;
+}
+
 .page-footer__tag {
   @include resetIndentation;
   font-family: $main-font;
@@ -6,4 +19,39 @@
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.page-footer__social {
+  padding-top: 42px;
+}
+
+.page-footer__copyright {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.page-footer__text {
+  margin-right: 11px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-footer__social {
+    padding: 0;
+  }
+
+  .page-footer__copyright {
+    padding-top: 0;
+  }
 }

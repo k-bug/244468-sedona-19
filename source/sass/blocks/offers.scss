@@ -1,0 +1,40 @@
+.offers__wrapper {
+  padding-top: 33px;
+  padding-right: 20px;
+  padding-bottom: 49px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.offers__heading {
+  max-width: 458px;
+  margin: 0 auto;
+}
+
+.offers__text {
+  max-width: 458px;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.offers__button {
+  max-width: 458px;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .offers__wrapper {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .offers__wrapper {
+    padding-bottom: 66px;
+  }
+}

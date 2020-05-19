@@ -5,10 +5,15 @@
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
   .section-heading {
     font-size: 21px;
+
+    &--global {
+      font-size: 30px;
+    }
   }
 }

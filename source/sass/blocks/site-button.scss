@@ -4,6 +4,7 @@
   margin: 0;
   padding-top: 21px;
   padding-bottom: 20px;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
@@ -11,5 +12,19 @@
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+  border: none;
   background-color: $brand-color;
+}
+
+.site-button:hover {
+  background-color: #669ec0;
+}
+
+.site-button:active {
+  color: rgba(256, 256, 256, 0.3);
+  background-color: #5496bd;
+}
+
+.site-button:disabled {
+  background-color: #e5e5e5;
 }
