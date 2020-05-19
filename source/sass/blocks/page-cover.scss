@@ -77,7 +77,7 @@
   .page-cover::before {
     background-image: url("../../img/bg-intro-triangle-tablet.svg");
     width: 768px;
-    bottom: 0;
+    bottom: -1px;
   }
 }
 
