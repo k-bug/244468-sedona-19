@@ -1,3 +1,7 @@
+.main-nav {
+  position: relative;
+}
+
 .main-nav__list {
   @include resetList;
   background-color: #ffffff;
@@ -21,7 +25,10 @@
   width: 100%;
   margin: 0;
   padding-top: 12px;
+  padding-right: 40px;
   padding-bottom: 8px;
+  padding-left: 40px;
+  box-sizing: border-box;
   font-weight: 700;
   font-size: 18px;
   line-height: 40px;
@@ -41,10 +48,87 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
+@media (max-width: $mobile-only) {
+  .main-nav--closed .main-nav__wrapper {
+    display: none;
+  }
+
+  .main-nav--opened .main-nav__wrapper {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+
+  .main-nav--closed .main-nav__toggle {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    border: none;
+    background-color: transparent;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 23px;
+      height: 3px;
+      top: 17px;
+      right: 20px;
+      background-color: $brand-color;
+      box-shadow: 0 7px 0 0 $brand-color, 0 14px 0 0 $brand-color;
+    }
+  }
+
+  .main-nav--opened .main-nav__toggle {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 10;
+    border: none;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      right: 18px;
+      width: 28px;
+      height: 4px;
+      background-color: #ffffff;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+      box-shadow: none;
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+
+  .main-nav--no-js {
+    display: block;
+  }
+
+  .main-nav--no-js .main-nav__toggle {
+    display: none;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .main-nav__link {
     padding-top: 16px;
+    padding-right: 0;
     padding-bottom: 14px;
+    padding-left: 0;
     font-size: 14px;
     line-height: 26px;
     color: #000000;
@@ -91,5 +175,9 @@
     &--current {
       color: rgba(118, 99, 87, 0.3);
     }
+  }
+
+  .main-nav__toggle {
+    display: none;
   }
 }
