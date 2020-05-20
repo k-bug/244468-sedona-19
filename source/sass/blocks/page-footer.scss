@@ -35,6 +35,18 @@
   margin-right: 11px;
 }
 
+.page-footer__logo-link {
+  color: #000000;
+
+  &:hover {
+    color: $brand-color;
+  }
+
+  &:active {
+    color: #b2b2b2;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .page-footer__content {
     max-width: 960px;
