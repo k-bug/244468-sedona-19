@@ -137,6 +137,16 @@
     &--current {
       color: #766357;
     }
+
+    :hover {
+      background-color: transparent;
+      color: #81b3d2;
+    }
+
+    :active {
+      background-color: transparent;
+      color: rgba(0, 0, 0, 0.3);
+    }
   }
 
   .main-nav__item {
@@ -159,20 +169,12 @@
     width: 100%;
   }
 
-  .main-nav__link:hover {
-    background-color: transparent;
-    color: #81b3d2;
-
-    &--current {
+  .main-nav__link--current {
+    &:hover {
       color: #604e43;
     }
-  }
 
-  .main-nav__link:active {
-    background-color: transparent;
-    color: rgba(0, 0, 0, 0.3);
-
-    &--current {
+    &:active {
       color: rgba(118, 99, 87, 0.3);
     }
   }
