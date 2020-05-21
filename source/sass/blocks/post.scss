@@ -32,7 +32,7 @@
 .post__like::before {
   content: "";
   position: absolute;
-  background-image: url("../../img/icon-like.svg");
+  background-image: url("../img/icon-like.svg");
   background-repeat: no-repeat;
   top: 12px;
   left: 0;
@@ -102,7 +102,7 @@
   .post__like::after {
     content: "";
     position: absolute;
-    background-image: url("../../img/icon-like-white.svg");
+    background-image: url("../img/icon-like-white.svg");
     background-repeat: no-repeat;
     top: 12px;
     left: 0;
