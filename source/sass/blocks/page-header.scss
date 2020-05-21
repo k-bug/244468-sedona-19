@@ -25,3 +25,13 @@
     transform: translate(-50%);
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-header__logo-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-94px);
+  }
+}
