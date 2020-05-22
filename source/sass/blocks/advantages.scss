@@ -76,12 +76,6 @@
   object-fit: cover;
 }
 
-@media (max-width: $mobile-only) {
-  .advantages__text br {
-    display: none;
-  }
-}
-
 @media (min-width: $tablet-width) {
   .advantages__list {
     display: flex;
@@ -165,12 +159,12 @@
 
 @media (min-width: $desktop-width) {
   .advantages__content {
-    padding-top: 57px;
-    padding-bottom: 64px;
+    padding-top: 54px;
+    padding-bottom: 58px;
   }
 
   .advantages__item {
-    padding-bottom: 70px;
+    padding-bottom: 65px;
 
     &--cool {
       padding: 0;
