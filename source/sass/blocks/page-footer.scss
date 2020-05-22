@@ -4,7 +4,7 @@
 
 .page-footer__content {
   display: flex;
-  padding-top: 31px;
+  padding-top: 37px;
   padding-bottom: 32px;
   flex-direction: column;
   align-items: center;
@@ -22,16 +22,17 @@
 }
 
 .page-footer__social {
-  padding-top: 42px;
+  padding-top: 35px;
 }
 
 .page-footer__copyright {
   display: flex;
   padding-top: 40px;
-  align-items: center;
+  //align-items: center;
 }
 
 .page-footer__text {
+  margin-top: 4px;
   margin-right: 11px;
 }
 

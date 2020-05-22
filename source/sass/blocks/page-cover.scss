@@ -10,6 +10,7 @@
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg-back-mobile@2x.jpg");
+    background-size: cover;
   }
 
   &--main-page {
@@ -22,21 +23,21 @@
       background-image: url("../img/bg-back-mobile@2x.jpg");
     }
   }
-}
 
-.page-cover::before {
-  content: "";
-  position: absolute;
-  display: block;
-  background-image: url("../img/bg-intro-triangle-mobile.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 320px;
-  height: 57px;
-  bottom: -16px;
-  left: 50%;
-  transform: translate(-50%);
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 57px;
+    bottom: -16px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 
 .page-cover__image {
