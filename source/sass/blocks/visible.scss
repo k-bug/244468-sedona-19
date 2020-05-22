@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+  .visible {
+    // &--mobile {
+    //   display: inline;
+    // }
+
+    &--thablet {
+      display: none;
+    }
+
+    &--desktop {
+      display: none;
+    }
+
+    &--not-mobile {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .visible {
+    &--mobile {
+      display: none;
+    }
+
+    // &--thablet {
+    //   display: inline;
+    // }
+
+    &--desktop {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible {
+    &--mobile {
+      display: none;
+    }
+
+    &--thablet {
+      display: none;
+    }
+
+    &--desktop {
+      display: inline;
+    }
+  }
+}
