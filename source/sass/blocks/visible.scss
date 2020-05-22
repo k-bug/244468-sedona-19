@@ -1,8 +1,5 @@
 @media (max-width: 767px) {
   .visible {
-    // &--mobile {
-    //   display: inline;
-    // }
 
     &--thablet {
       display: none;
@@ -23,10 +20,6 @@
     &--mobile {
       display: none;
     }
-
-    // &--thablet {
-    //   display: inline;
-    // }
 
     &--desktop {
       display: none;
