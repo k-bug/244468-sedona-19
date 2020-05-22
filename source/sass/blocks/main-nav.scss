@@ -143,15 +143,15 @@
     font-size: 14px;
     line-height: 26px;
     color: #000000;
-    background: #ffffff;
+    background-color: #ffffff;
 
-    :hover {
-      background-color: transparent;
+    &:hover {
+      background-color: #ffffff;
       color: #81b3d2;
     }
 
-    :active {
-      background-color: transparent;
+    &:active {
+      background-color: #ffffff;
       color: rgba(0, 0, 0, 0.3);
     }
   }
@@ -160,6 +160,7 @@
     color: #766357;
 
     &:hover {
+      background-color: #ffffff;
       color: #604e43;
     }
 
