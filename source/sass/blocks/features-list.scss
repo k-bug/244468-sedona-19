@@ -73,12 +73,28 @@
     padding: 0;
   }
 
+  .features-list__item:first-child {
+    padding-top: 160px;
+  }
+
   .features-list__item {
-    padding-top: 164px;
+    padding-top: 160px;
     padding-right: 20px;
-    padding-bottom: 67px;
+    padding-bottom: 61px;
     padding-left: 20px;
     width: 33%;
+
+    &--housing {
+      order: 1;
+    }
+
+    &--food {
+      order: 2;
+    }
+
+    &--souvenirs {
+      order: 3;
+    }
   }
 
   .features-list__heading {
@@ -86,6 +102,7 @@
   }
 
   .features-list__text {
+    padding-top: 20px;
     text-align: center;
   }
 
@@ -123,11 +140,11 @@
     background-image: url("../img/icon-gift.svg");
     background-position: center;
     background-repeat: no-repeat;
-    top: 60px;
+    top: 57px;
     left: 50%;
-    transform: translate(-37.5px);
-    width: 75px;
-    height: 72px;
+    transform: translate(-35.5px);
+    width: 64px;
+    height: 75px;
     background-size: contain;
   }
 }

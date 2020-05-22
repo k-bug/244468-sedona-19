@@ -30,8 +30,25 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-intro::after {
+    display: none;
+  }
+  
   .page-intro__welcome {
-    padding-top: 55px;
-    padding-bottom: 58px;
+    padding-top: 50px;
+    padding-bottom: 51px;
+  }
+
+  .page-intro__heading {
+    width: 490px;
+    margin: 0 auto;
+  }
+
+  .page-intro__heading br {
+    display: none;
+  }
+
+  .page-intro__text {
+    padding-top: 28px;
   }
 }

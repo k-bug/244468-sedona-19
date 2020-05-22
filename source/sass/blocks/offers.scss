@@ -28,8 +28,16 @@
 
 @media (min-width: $tablet-width) {
   .offers__wrapper {
-    padding-top: 58px;
+    padding-top: 49px;
     padding-bottom: 58px;
+  }
+
+  .offers__text {
+    margin-top: 23px;
+  }
+
+  .offers__button {
+    margin-top: 41px;
   }
 }
 
