@@ -258,6 +258,28 @@
     &--contacts {
       order: 3;
       width: 100%;
+      position: relative;
+      padding-bottom: 0;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 26px;
+        left: 0;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 26px;
+        right: 0;
+      }
     }
 
     &--sights {
@@ -333,31 +355,6 @@
 
     &--check:nth-child(2n) {
       align-self: flex-end;
-    }
-  }
-
-  .form-part--contacts {
-    position: relative;
-    padding-bottom: 0;
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 26px;
-      left: 0;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 26px;
-      right: 0;
     }
   }
 
