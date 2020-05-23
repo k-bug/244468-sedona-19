@@ -370,16 +370,20 @@
   }
 
   .form-part__wrap--sights .form-part__choice-label {
-    width: 220px;
-    margin-right: 38px;
+    width: 202px;
+    margin-right: 37px;
   }
 
-  .form-part__wrap--sights .form-part__choice-label:nth-child(3) {
-    margin-right: 18px;
+  .form-part__wrap--sights .form-part__choice-label {
+    margin-left: 19px;
+  }
+
+  .form-part__wrap--sights .form-part__choice-label:nth-child(4n + 1) {
+    margin-left: 0;
   }
 
   .form-part__wrap--sights .form-part__choice-label:nth-child(4n) {
-    width: 205px;
+    margin-left: 0;
     margin-right: 0;
   }
 
