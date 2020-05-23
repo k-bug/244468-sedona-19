@@ -55,16 +55,29 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-section__wrapper {
+    &--photo {
+      padding-top: 69px;
+      padding-bottom: 0;
+    }
+
+    &--video {
+      padding-top: 61px;
+    }
+  }
+
   .page-section__posts {
     width: 648px;
     margin: 0 auto;
+    padding-top: 68px;
     flex-direction: row;
     align-items: start;
     flex-wrap: wrap;
   }
 
   .page-section__video {
-    margin-top: 80px;
+    margin-top: 39px;
+    padding-bottom: 0;
     width: 648px;
     height: 499px;
   }
@@ -72,6 +85,10 @@
   .page-section__form {
     margin-top: 0;
     padding-top: 85px;
+  }
+
+  .page-section__text {
+    padding-top: 23px;
   }
 }
 
