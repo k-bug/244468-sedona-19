@@ -111,6 +111,10 @@
 @media (min-width: $desktop-width) {
   .page-cover {
     height: 300px;
+
+    &--main-page {
+      height: 518px;
+    }
   }
 
   .page-cover__image {

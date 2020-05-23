@@ -39,27 +39,27 @@
 }
 
 .form-part--personal-info .form-part__heading {
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
 .form-part--contacts .form-part__heading {
-  padding-top: 50px;
-  padding-bottom: 26px;
+  padding-top: 25px;
+  padding-bottom: 22px;
 }
 
 .form-part--impressions .form-part__heading {
-  padding-top: 53px;
+  padding-top: 35px;
   padding-bottom: 26px;
 }
 
 .form-part--sights .form-part__heading {
-  padding-top: 52px;
-  padding-bottom: 22px;
+  padding-top: 19px;
+  padding-bottom: 20px;
 }
 
 .form-part--comment .form-part__heading {
-  padding-top: 45px;
-  padding-bottom: 22px;
+  padding-top: 17px;
+  padding-bottom: 16px;
 }
 
 .form-part__label {
@@ -79,13 +79,17 @@
 
 .form-part__choice-label {
   @include resetIndentation;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 11px;
+  margin-bottom: 43px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
-  padding-left: 80px;
+  padding-left: 77px;
+
+  &--check {
+    padding-left: 69px;
+  }
 }
 
 .form-part__input {
@@ -109,15 +113,16 @@
 }
 
 .form-part__label-name {
-  padding-right: 21px;
-  padding-left: 14px;
+  padding-right: 16px;
+  padding-left: 21px;
 }
 
 .form-part__label--contacts .form-part__label-name {
-  padding-bottom: 11px;
+  padding-bottom: 9px;
 }
 
 .form-part__label--contacts .form-part__input {
+  margin-bottom: 14px;
   margin-left: 0;
   width: calc(100% - 98px);
 }
@@ -166,8 +171,8 @@
 
 .form-part__checkbox-tic {
   position: absolute;
-  margin-top: -16px;
-  margin-left: -76px;
+  margin-top: -14px;
+  margin-left: -79px;
   width: 55px;
   height: 55px;
   background-color: #f2f2f2;
