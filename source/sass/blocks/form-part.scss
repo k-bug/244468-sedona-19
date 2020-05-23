@@ -4,20 +4,24 @@
   padding: 0;
 
   &--impressions {
+    padding-bottom: 19px;
     order: 3;
     display: flex;
     flex-direction: column;
   }
 
   &--personal-info {
+    padding-bottom: 25px;
     order: 1;
   }
 
   &--contacts {
+    padding-bottom: 35px;
     order: 2;
   }
 
   &--sights {
+    padding-bottom: 17px;
     order: 4;
     display: flex;
     flex-direction: column;
@@ -31,22 +35,6 @@
 .form-part__radio {
   appearance: none;
   position: absolute;
-}
-
-.form-part--personal-info {
-  padding-bottom: 25px;
-}
-
-.form-part--contacts {
-  padding-bottom: 35px;
-}
-
-.form-part--impressions {
-  padding-bottom: 19px;
-}
-
-.form-part--sights {
-  padding-bottom: 17px;
 }
 
 .form-part--personal-info .form-part__label-name {
@@ -280,6 +268,27 @@
 
     &--comment {
       order: 5;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 42px;
+        left: 0;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 42px;
+        right: 0;
+      }
     }
   }
 
@@ -394,30 +403,6 @@
       height: 1px;
       background-color: #dbdbdb;
       top: 50px;
-      right: 0;
-    }
-  }
-
-  .form-part--comment {
-    position: relative;
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 42px;
-      left: 0;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 42px;
       right: 0;
     }
   }

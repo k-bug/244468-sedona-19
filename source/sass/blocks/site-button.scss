@@ -32,3 +32,9 @@
 .site-button:disabled {
   background-color: #e5e5e5;
 }
+
+@media (min-width: $tablet-width) {
+  .site-button--pop-up {
+    font-size: 21px;
+  }
+}
