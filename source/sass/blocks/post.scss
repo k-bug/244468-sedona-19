@@ -136,15 +136,21 @@
     color: #ffffff;
   }
 
-  .post__like::after {
-    content: "";
-    position: absolute;
-    background-image: url("../img/icon-like-white.svg");
-    background-repeat: no-repeat;
-    top: 12px;
-    left: 0;
-    width: 23px;
-    height: 21px;
+  .post__like {
+    &::before {
+      display: none;
+    }
+    
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url("../img/icon-like-white.svg");
+      background-repeat: no-repeat;
+      top: 8px;
+      left: 4px;
+      width: 23px;
+      height: 21px;
+    }
   }
 
   .post__data {

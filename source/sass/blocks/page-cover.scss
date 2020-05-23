@@ -109,6 +109,14 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-cover {
+    height: 300px;
+  }
+
+  .page-cover__image {
+    margin-top: 102px;
+  }
+
   .page-cover::before {
     background-image: url("../img/bg-intro-triangle-desktop.svg");
     width: 1200px;
