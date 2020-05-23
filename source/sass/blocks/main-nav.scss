@@ -80,6 +80,16 @@
       background-color: $brand-color;
       box-shadow: 0 7px 0 0 $brand-color, 0 14px 0 0 $brand-color;
     }
+
+    &:hover::before {
+      background-color: #b3d1e4;
+      box-shadow: 0 7px 0 0 #b3d1e4, 0 14px 0 0 #b3d1e4;
+    }
+
+    &:active::before {
+      background-color: #d9e8f1;
+      box-shadow: 0 7px 0 0 #d9e8f1, 0 14px 0 0 #d9e8f1;
+    }
   }
 
   .main-nav--opened .main-nav__toggle {
@@ -111,6 +121,16 @@
 
     &::after {
       transform: rotate(-45deg);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      background-color: #cde1ed;
+    }
+
+    &:active::before,
+    &:active::after {
+      background-color: #a7cae0;
     }
   }
 
