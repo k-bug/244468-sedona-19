@@ -247,6 +247,17 @@
     &--impressions {
       order: 1;
       width: 50%;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 292px;
+        background-color: #dbdbdb;
+        top: 3px;
+        right: 0;
+      }
     }
 
     &--personal-info {
@@ -333,20 +344,6 @@
         top: 42px;
         right: 0;
       }
-    }
-  }
-
-  .form-part--impressions {
-    position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 1px;
-      height: 292px;
-      background-color: #dbdbdb;
-      top: 3px;
-      right: 0;
     }
   }
 
