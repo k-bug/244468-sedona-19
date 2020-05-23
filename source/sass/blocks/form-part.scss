@@ -264,6 +264,28 @@
       order: 4;
       display: flex;
       flex-wrap: wrap;
+      position: relative;
+      padding-bottom: 0;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 50px;
+        left: 0;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #dbdbdb;
+        top: 50px;
+        right: 0;
+      }
     }
 
     &--comment {
@@ -380,31 +402,6 @@
     width: 278px;
     padding-top: 26px;
     padding-bottom: 45px;
-  }
-
-  .form-part--sights {
-    position: relative;
-    padding-bottom: 0;
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 50px;
-      left: 0;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 125px;
-      height: 1px;
-      background-color: #dbdbdb;
-      top: 50px;
-      right: 0;
-    }
   }
 }
 
