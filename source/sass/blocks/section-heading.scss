@@ -11,6 +11,10 @@
     font-size: 21px;
     line-height: 26px;
   }
+
+  &--inner {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: $tablet-width) {
