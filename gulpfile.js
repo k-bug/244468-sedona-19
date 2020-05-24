@@ -20,13 +20,7 @@ gulp.task("css", function () {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(sourcemap.write("."))
-    .pipe(gulp.dest("build/css"));
-});
-
-gulp.task("css-min", function () {
-  return gulp.src("build/css/style.css")
-    .pipe(sourcemap.init())
+    .pipe(gulp.dest("build/css"))
     .pipe(csso())
     .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
@@ -69,5 +63,5 @@ gulp.task("copy", function () {
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("build", gulp.series("clean", "copy", "css", "css-min"));
+gulp.task("build", gulp.series("clean", "copy", "css"));
 gulp.task("start", gulp.series("build", "server"));
