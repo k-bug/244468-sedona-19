@@ -13,32 +13,36 @@
 
 .page-section__wrapper {
   padding-top: 39px;
-  padding-bottom: 42px;
+  padding-bottom: 37px;
 
-  &--first {
-    padding-top: 44px;
-    padding-bottom: 40px;
+  &--photo {
+    padding-bottom: 0;
+  }
+
+  &--video {
+    padding-top: 27px;
+    padding-bottom: 42px;
   }
 }
 
 .page-section__heading {
   max-width: 442px;
   margin: 0 auto;
-  padding-top: 40px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .page-section__form {
   margin-top: 24px;
-  padding-top: 49px;
+  padding-top: 32px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .page-section__video {
   margin: 0 auto;
-  padding-top: 42px;
+  padding-top: 31px;
+  padding-bottom: 58px;
   width: 320px;
   height: auto;
 }
@@ -46,29 +50,51 @@
 .page-section__text {
   max-width: 440px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 26px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 @media (min-width: $tablet-width) {
+  .page-section__wrapper {
+    &--photo {
+      padding-top: 69px;
+      padding-bottom: 0;
+    }
+
+    &--video {
+      padding-top: 61px;
+    }
+
+    &--form {
+      padding-top: 69px;
+      padding-bottom: 62px;
+    }
+  }
+
   .page-section__posts {
     width: 648px;
     margin: 0 auto;
+    padding-top: 68px;
     flex-direction: row;
     align-items: start;
     flex-wrap: wrap;
   }
 
   .page-section__video {
-    margin-top: 80px;
+    margin-top: 39px;
+    padding-bottom: 0;
     width: 648px;
     height: 499px;
   }
 
   .page-section__form {
     margin-top: 0;
-    padding-top: 85px;
+    padding-top: 72px;
+  }
+
+  .page-section__text {
+    padding-top: 23px;
   }
 }
 
@@ -80,11 +106,36 @@
 
   .page-section__posts {
     width: 1200px;
+    padding-top: 70px;
+  }
+
+  .post__data {
+    padding-bottom: 16px;
   }
 
   .page-section__video {
-    margin-top: 78px;
+    margin-top: 37px;
+    margin-bottom: 42px;
     width: 800px;
     height: 500px;
+  }
+
+  .page-section__form {
+    padding-top: 57px;
+  }
+
+  .page-section__wrapper {
+    &--photo {
+      padding-top: 107px;
+    }
+
+    &--video {
+      padding-top: 65px;
+    }
+
+    &--form {
+      padding-top: 107px;
+      padding-bottom: 65px;
+    }
   }
 }

@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 102px;
+  margin: 0 auto;
 }
 
 .page-header__logo {
@@ -26,6 +28,10 @@
 
 @media (min-width: $desktop-width) {
   .page-header__logo-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
     transform: translate(-94px);
   }
 }

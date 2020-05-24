@@ -14,27 +14,39 @@
 
 .offers__text {
   max-width: 458px;
-  margin-top: 32px;
+  margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .offers__button {
   max-width: 458px;
-  margin-top: 42px;
+  margin-top: 34px;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: $tablet-width) {
   .offers__wrapper {
-    padding-top: 58px;
+    padding-top: 49px;
     padding-bottom: 58px;
+  }
+
+  .offers__text {
+    margin-top: 23px;
+  }
+
+  .offers__button {
+    margin-top: 41px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .offers__wrapper {
     padding-bottom: 66px;
+  }
+
+  .offers__button {
+    margin-top: 47px;
   }
 }

@@ -1,0 +1,18 @@
+.social-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 46px;
+}
+
+.social-link__image {
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.social-link:active .social-link__image {
+  opacity: 0.3;
+}

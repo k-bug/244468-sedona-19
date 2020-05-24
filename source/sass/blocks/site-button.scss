@@ -2,8 +2,8 @@
   display: block;
   width: 100%;
   margin: 0;
-  padding-top: 21px;
-  padding-bottom: 20px;
+  padding-top: 17px;
+  padding-bottom: 15px;
   font-family: $main-font;
   font-weight: 700;
   font-size: 21px;
@@ -14,6 +14,10 @@
   color: #ffffff;
   border: none;
   background-color: $brand-color;
+
+  &--pop-up {
+    font-size: 18px;
+  }
 }
 
 .site-button:hover {
@@ -27,4 +31,10 @@
 
 .site-button:disabled {
   background-color: #e5e5e5;
+}
+
+@media (min-width: $tablet-width) {
+  .site-button--pop-up {
+    font-size: 21px;
+  }
 }

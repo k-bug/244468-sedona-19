@@ -6,6 +6,15 @@
   color: #000000;
   text-transform: uppercase;
   text-align: center;
+
+  &--global {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  &--inner {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -14,6 +23,12 @@
 
     &--global {
       font-size: 30px;
+      line-height: 40px;
+    }
+
+    &--inner {
+      font-size: 30px;
+      line-height: 40px;
     }
   }
 }
