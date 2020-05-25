@@ -5,6 +5,10 @@
   padding-bottom: 27px;
 }
 
+.post__link {
+  display: block;
+}
+
 @media (max-width: $mobile-only) {
   .post {
     &::before {
@@ -87,9 +91,18 @@
     }
   }
 
+  .post--lead .post__photo {
+    width: 100%;
+    height: auto;
+    min-width: 648px;
+    min-height: 400px;
+  }
+
   .post__photo {
     width: 100%;
     height: auto;
+    min-width: 324px;
+    min-height: 400px;
   }
 
   .post__data {
