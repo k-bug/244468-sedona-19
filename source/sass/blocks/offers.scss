@@ -19,6 +19,10 @@
   margin-left: auto;
 }
 
+.offers__text br {
+  display: none;
+}
+
 .offers__button {
   max-width: 458px;
   margin-top: 34px;
@@ -38,6 +42,10 @@
 
   .offers__button {
     margin-top: 41px;
+  }
+
+  .offers__text br {
+    display: initial;
   }
 }
 
