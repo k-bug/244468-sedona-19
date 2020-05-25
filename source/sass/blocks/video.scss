@@ -5,6 +5,8 @@
 .video__placeholder {
   width: 100%;
   height: auto;
+  min-width: 320px;
+  min-height: 201px;
 }
 
 .video__controls-wrapper {
@@ -120,6 +122,13 @@
     transform: translate(0);
   }
 
+  .video__placeholder {
+    width: 100%;
+    height: auto;
+    min-width: 648px;
+    min-height: 499px;
+  }
+
   .video__controls-background {
     display: none;
   }
@@ -172,6 +181,13 @@
 @media (min-width: $desktop-width) {
   .video__controls {
     width: 800px;
+  }
+
+  .video__placeholder {
+    width: 100%;
+    height: auto;
+    min-width: 800px;
+    min-height: 500px;
   }
 
   .video__progress {
