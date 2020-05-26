@@ -99,10 +99,10 @@
   }
 
   .post__photo {
-    width: 100%;
-    height: auto;
-    min-width: 324px;
-    min-height: 400px;
+    //width: 100%;
+    //height: auto;
+    width: 324px;
+    height: 267px;
   }
 
   .post__data {
@@ -175,5 +175,10 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
     bottom: 0;
+  }
+
+  .post__photo {
+    width: 400px;
+    height: 267px;
   }
 }

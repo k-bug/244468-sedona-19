@@ -74,16 +74,16 @@
       content: "";
       position: absolute;
       width: 23px;
-      height: 3px;
-      top: 17px;
+      height: 4px;
+      top: 18px;
       right: 20px;
       background-color: $brand-color;
-      box-shadow: 0 7px 0 0 $brand-color, 0 14px 0 0 $brand-color;
+      box-shadow: 0 8.5px 0 0 $brand-color, 0 17px 0 0 $brand-color;
     }
 
     &:hover::before {
       background-color: #b3d1e4;
-      box-shadow: 0 7px 0 0 #b3d1e4, 0 14px 0 0 #b3d1e4;
+      box-shadow: 0 8.5px 0 0 #b3d1e4, 0 17px 0 0 #b3d1e4;
     }
 
     &:active::before {

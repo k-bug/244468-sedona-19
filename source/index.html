@@ -197,17 +197,9 @@
           </div>
         </section>
         <div class="map">
-          <picture>
-            <source media="(min-width: 769px)"
-                    srcset="img/bg-map-desktop@1x.jpg 1x,
-                    img/bg-map-desktop@2x.jpg 2x">
-            <source media="(min-width: 321px)"
-                    srcset="img/bg-map-tablet@1x.jpg 1x,
-                    img/bg-map-tablet@2x.jpg 2x">
-            <img class="map__image" src="img/bg-map-mobile@1x.jpg"
-                srcset="img/bg-map-mobile@2x.jpg 2x"
-                width="320" height="350" alt="Карта маршрута" style="background-color: #d6d1c6;">
-          </picture>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676324.3410454637!2d-112.91574438841093!3d34.854443815395705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2sSedona%2C%20AZ%2086336%2C%20USA!5e0!3m2!1sen!2sru!4v1590514228243!5m2!1sen!2sru"
+                  width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+          </iframe>
         </div>
       </main>
       <footer class="page-footer">
@@ -255,5 +247,7 @@
     <script src="js/mobile-menu.js"></script>
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+            type="text/javascript">
   </body>
 </html>
