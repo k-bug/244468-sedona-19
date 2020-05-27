@@ -9,7 +9,7 @@
   <body>
     <div class="page-shadow">
       <header class="page-header">
-        <div class="page-header__wrapper container">
+        <div class="page-header__wrapper">
           <nav class="page-header__nav main-nav main-nav--no-js">
             <button class="main-nav__toggle">
               <span class="visually-hidden">Открыть меню</span>
@@ -42,12 +42,12 @@
       </header>
       <main class="page-main">
         <section class="page-cover">
-          <div class="page-cover__wrapper container">
+          <div class="page-cover__wrapper">
             <img class="page-cover__image" src="img/text-sedona.svg" width="229" height="39" alt="Sedona">
           </div>
         </section>
         <section class="page-section">
-          <div class="page-section__wrapper page-section__wrapper--photo container">
+          <div class="page-section__wrapper page-section__wrapper--photo">
             <h1 class="page-section__heading section-heading section-heading--inner">
               Фото и видео
             </h1>
@@ -59,12 +59,23 @@
               <li class="page-section__post post post--lead">
                 <a class="post__link" href="#">
                   <picture>
+                    <source type="image/webp"
+                            media="(min-width: 1200px)"
+                            srcset="img/photo-sunset-desktop@1x.webp 1x,
+                          img/photo-sunset-desktop@2x.webp 2x">
                     <source media="(min-width: 1200px)"
                             srcset="img/photo-sunset-desktop@1x.jpg 1x,
                           img/photo-sunset-desktop@2x.jpg 2x">
+                    <source type="image/webp"
+                            media="(min-width: 768px)"
+                            srcset="img/photo-sunset-tablet@1x.webp 1x,
+                          img/photo-sunset-tablet@2x.webp 2x">
                     <source media="(min-width: 768px)"
                             srcset="img/photo-sunset-tablet@1x.jpg 1x,
                           img/photo-sunset-tablet@2x.jpg 2x">
+                    <source type="image/webp"
+                            srcset="img/photo-sunset-mobile@1x.webp 1x,
+                          img/photo-sunset-mobile@2x.webp 2x">
                     <img class="post__photo" src="img/photo-sunset-mobile@1x.jpg"
                         srcset="img/photo-sunset-mobile@2x.jpg 2x"
                         width="280" height="280" alt="Закат в Седоне" style="background-color: #4f3114;">
@@ -85,12 +96,23 @@
               <li class="page-section__post post">
                 <a class="post__link" href="#">
                   <picture>
+                    <source type="image/webp"
+                            media="(min-width: 1200px)"
+                            srcset="img/photo-cactus-desktop@1x.webp 1x,
+                          img/photo-cactus-desktop@2x.webp 2x">
                     <source media="(min-width: 1200px)"
                             srcset="img/photo-cactus-desktop@1x.jpg 1x,
                           img/photo-cactus-desktop@2x.jpg 2x">
+                    <source type="image/webp"
+                            media="(min-width: 768px)"
+                            srcset="img/photo-cactus-tablet@1x.webp 1x,
+                          img/photo-cactus-tablet@2x.webp 2x">
                     <source media="(min-width: 768px)"
                             srcset="img/photo-cactus-tablet@1x.jpg 1x,
                           img/photo-cactus-tablet@2x.jpg 2x">
+                    <source type="image/webp"
+                            srcset="img/photo-cactus-mobile@1x.webp 1x,
+                          img/photo-cactus-mobile@2x.webp 2x">
                     <img class="post__photo" src="img/photo-cactus-mobile@1x.jpg"
                         srcset="img/photo-cactus-mobile@2x.jpg 2x"
                         width="280" height="280" alt="Кактус в Седоне"  style="background-color: #4f3114;">
@@ -111,12 +133,24 @@
               <li class="page-section__post post post--special">
                 <a class="post__link" href="#">
                   <picture>
+                    <source type="image/webp"
+                            media="(min-width: 1200px)"
+                            srcset="img/photo-roads-desktop@1x.webp 1x,
+                          img/photo-roads-desktop@2x.webp 2x">
                     <source media="(min-width: 1200px)"
                             srcset="img/photo-roads-desktop@1x.jpg 1x,
                           img/photo-roads-desktop@2x.jpg 2x">
+                    <source type="image/webp"
+                            media="(min-width: 768px)"
+                            srcset="img/photo-roads-tablet@1x.webp 1x,
+                          img/photo-roads-tablet@2x.webp 2x">
                     <source media="(min-width: 768px)"
                             srcset="img/photo-roads-tablet@1x.jpg 1x,
                           img/photo-roads-tablet@2x.jpg 2x">
+                    <source type="image/webp"
+                            media="(min-width: 768px)"
+                            srcset="img/photo-roads-mobile@1x.webp 1x,
+                          img/photo-roads-mobile@2x.webp 2x">
                     <img class="post__photo" src="img/photo-roads-mobile@1x.jpg"
                         srcset="img/photo-roads-mobile@2x.jpg 2x"
                         width="280" height="280" alt="Дорога на север" style="background-color: #4f3114;">
@@ -137,12 +171,23 @@
               <li class="page-section__post post">
                 <a class="post__link" href="#">
                   <picture>
+                    <source type="image/webp"
+                            media="(min-width: 1200px)"
+                            srcset="img/photo-bridge-desktop@1x.webp 1x,
+                          img/photo-bridge-desktop@2x.webp 2x">
                     <source media="(min-width: 1200px)"
                             srcset="img/photo-bridge-desktop@1x.jpg 1x,
                           img/photo-bridge-desktop@2x.jpg 2x">
+                    <source type="image/webp"
+                            media="(min-width: 768px)"
+                            srcset="img/photo-bridge-tablet@1x.webp 1x,
+                          img/photo-bridge-tablet@2x.webp 2x">
                     <source media="(min-width: 768px)"
                             srcset="img/photo-bridge-tablet@1x.jpg 1x,
                           img/photo-bridge-tablet@2x.jpg 2x">
+                    <source type="image/webp"
+                            srcset="img/photo-bridge-mobile@1x.webp 1x,
+                          img/photo-bridge-mobile@2x.webp 2x">
                     <img class="post__photo" src="img/photo-bridge-mobile@1x.jpg"
                         srcset="img/photo-bridge-mobile@2x.jpg 2x"
                         width="280" height="280" alt="Мост дьявола в Седоне" style="background-color: #4f3114;">
@@ -164,7 +209,7 @@
           </div>
         </section>
         <section class="page-section">
-          <div class="page-section__wrapper page-section__wrapper--video container">
+          <div class="page-section__wrapper page-section__wrapper--video">
             <h2 class="page-section__heading section-heading section-heading--inner">
               Все еще сомневаетесь?
             </h2>
@@ -175,12 +220,23 @@
             </p>
             <div class="page-section__video video">
               <picture>
+                <source type="image/webp"
+                        media="(min-width: 1200px)"
+                        srcset="img/video-desktop@1x.webp 1x,
+                          img/video-desktop@2x.webp 2x">
                 <source media="(min-width: 1200px)"
                         srcset="img/video-desktop@1x.jpg 1x,
                           img/video-desktop@2x.jpg 2x">
+                <source type="image/webp"
+                        media="(min-width: 768px)"
+                        srcset="img/video-tablet@1x.webp 1x,
+                          img/video-tablet@2x.webp 2x">
                 <source media="(min-width: 768px)"
                         srcset="img/video-tablet@1x.jpg 1x,
                           img/video-tablet@2x.jpg 2x">
+                <source type="image/webp"
+                        srcset="img/video-mobile@1x.webp 1x,
+                          img/video-mobile@2x.webp 2x">
                 <img class="video__placeholder" src="img/video-mobile@1x.jpg"
                     srcset="img/video-mobile@2x.jpg 2x"
                     width="320" height="201" alt="Заставка видео о Седоне" style="background-color: #8d432f;">
@@ -214,7 +270,7 @@
         </section>
       </main>
       <footer class="page-footer">
-        <div class="page-footer__wrapper container">
+        <div class="page-footer__wrapper">
           <div class="page-footer__content">
             <b class="page-footer__tag">#visitSEDONA</b>
             <ul class="page-footer__social social-list">

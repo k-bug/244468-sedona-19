@@ -76,6 +76,12 @@
   object-fit: cover;
 }
 
+@media (max-width: $mobile-only) {
+  .advantages__image {
+    min-height: 260px;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .advantages__list {
     display: flex;

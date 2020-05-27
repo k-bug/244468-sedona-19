@@ -190,6 +190,10 @@
   border-radius: 5px;
 }
 
+.form-part__checkbox:focus + .form-part__checkbox-tic {
+  background-color: red;
+}
+
 .form-part__checkbox:checked + .form-part__checkbox-tic::before {
   content: "";
   position: absolute;
@@ -464,6 +468,14 @@
     padding-bottom: 11px;
     padding-left: 17px;
     outline: 0;
+  }
+
+  .form-part__radio:focus + .form-part__radio-tic {
+    background-color: #e5e5e5;
+  }
+
+  .form-part__checkbox:focus + .form-part__checkbox-tic {
+    background-color: #e5e5e5;
   }
 
   .form-part__label-name {

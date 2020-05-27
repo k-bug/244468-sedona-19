@@ -9,7 +9,7 @@
   <body>
     <div class="page-shadow">
       <header class="page-header">
-        <div class="page-header__wrapper container">
+        <div class="page-header__wrapper">
           <nav class="page-header__nav main-nav main-nav--no-js">
             <button class="main-nav__toggle">
               <span class="visually-hidden">Открыть меню</span>
@@ -42,14 +42,14 @@
       </header>
       <main class="page-main">
         <section class="page-cover page-cover--main-page">
-          <div class="page-cover__wrapper container">
+          <div class="page-cover__wrapper">
             <img class="page-cover__welcome-image"
                 src="img/text-sedona-index.svg" width="282" height="214"
                 alt="Welcome to the gorgeous Sedona! Because the Grand Canyon sucks!">
           </div>
         </section>
         <section class="page-intro">
-          <div class="page-intro__welcome container">
+          <div class="page-intro__welcome">
             <h1 class="page-intro__heading page-heading">
               Седона — небольшой
               городок&nbsp;в&nbsp;Аризоне, заслуживающий&nbsp;большего!
@@ -60,7 +60,7 @@
           </div>
         </section>
         <section class="advantages">
-          <div class="advantages__wrapper container">
+          <div class="advantages__wrapper">
             <ol class="advantages__list">
               <li class="advantages__item advantages__item--cool">
                 <div class="advantages__wrapper">
@@ -77,12 +77,23 @@
                   </div>
                   <div class="advantages__cover">
                     <picture>
+                      <source type="image/webp"
+                              media="(min-width: 769px)"
+                              srcset="img/main-city-desktop@1x.webp 1x,
+                          img/main-city-desktop@2x.webp 2x">
                       <source media="(min-width: 769px)"
                               srcset="img/main-city-desktop@1x.jpg 1x,
                           img/main-city-desktop@2x.jpg 2x">
+                      <source type="image/webp"
+                              media="(min-width: 321px)"
+                              srcset="img/main-city-tablet@1x.webp 1x,
+                          img/main-city-tablet@2x.webp 2x">
                       <source media="(min-width: 321px)"
                               srcset="img/main-city-tablet@1x.jpg 1x,
                           img/main-city-tablet@2x.jpg 2x">
+                      <source type="image/webp"
+                              srcset="img/main-city-mobile@1x.webp 1x,
+                          img/main-city-mobile@2x.webp 2x">
                       <img class="advantages__image" src="img/main-city-mobile@1x.jpg"
                           srcset="img/main-city-mobile@2x.jpg 2x" width="320" height="260" alt="Площадь города Седона">
                     </picture>
@@ -136,12 +147,23 @@
                   </div>
                   <div class="advantages__cover advantages__cover--even">
                     <picture>
+                      <source type="image/webp"
+                              media="(min-width: 769px)"
+                              srcset="img/main-bridge-desktop@1x.webp 1x,
+                          img/main-bridge-desktop@2x.webp 2x">
                       <source media="(min-width: 769px)"
                               srcset="img/main-bridge-desktop@1x.jpg 1x,
                           img/main-bridge-desktop@2x.jpg 2x">
+                      <source type="image/webp"
+                              media="(min-width: 321px)"
+                              srcset="img/main-bridge-tablet@1x.webp 1x,
+                          img/main-bridge-tablet@2x.webp 2x">
                       <source media="(min-width: 321px)"
                               srcset="img/main-bridge-tablet@1x.jpg 1x,
                           img/main-bridge-tablet@2x.jpg 2x">
+                      <source type="image/webp"
+                              srcset="img/main-bridge-mobile@1x.webp 1x,
+                          img/main-bridge-mobile@2x.webp 2x">
                       <img class="advantages__image image" src="img/main-bridge-mobile@1x.jpg"
                           srcset="img/main-bridge-mobile@2x.jpg 2x" width="320" height="260" alt="Мост дьявола">
                     </picture>
@@ -185,7 +207,7 @@
           </div>
         </section>
         <section class="offers">
-          <div class="offers__wrapper container">
+          <div class="offers__wrapper">
             <h2 class="offers__heading section-heading section-heading--global">
               Заинтересовались?
             </h2>
@@ -203,7 +225,7 @@
         </div>
       </main>
       <footer class="page-footer">
-        <div class="page-footer__wrapper container">
+        <div class="page-footer__wrapper">
           <div class="page-footer__content">
             <b class="page-footer__tag">#visitSEDONA</b>
             <ul class="page-footer__social social-list">
@@ -247,7 +269,5 @@
     <script src="js/mobile-menu.js"></script>
     <script src="js/picturefill.js"></script>
     <script src="js/svg4everybody.min.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
-            type="text/javascript">
   </body>
 </html>
